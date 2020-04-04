@@ -23,4 +23,9 @@ tasks {
         main = "com.github.zachdeibert.minecraftlastpage.sanitycheck.SanityCheckKt"
         classpath = sourceSets["main"].runtimeClasspath
     }
+
+    register<JavaExec>("runChecker") {
+        main = "com.github.zachdeibert.minecraftlastpage.checker.CheckerKt"
+        classpath = sourceSets["main"].runtimeClasspath
+    }
 }
