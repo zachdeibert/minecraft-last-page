@@ -3,6 +3,7 @@
 
 # Log file
 *.log
+!sanity-check.log
 
 # BlueJ files
 *.ctxt
